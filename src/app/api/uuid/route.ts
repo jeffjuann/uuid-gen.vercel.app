@@ -6,5 +6,5 @@ export function GET(req: NextRequest)
 {
   const count: number = parseInt(req.nextUrl.searchParams.get('count') || '1');
   const uuids = Array.from({ length: count }, () => randomUUID());
-  return NextResponse.json({ message: 'Fetching Successful', result: uuids });
+  return NextResponse.json({ message: 'Generate UUID Success', result: uuids });
 }
