@@ -6,8 +6,8 @@ import { randomUUID } from 'crypto'
 export default function Home()
 {
   return (
-    <main className="w-full h-full grid place-items-center p-12">
-      <Card>
+    <main className="h-full grid place-items-center m-8">
+      <Card className='max-w-[430px]'>
         <CardHeader>
           <CardTitle>UUID-GEN</CardTitle>
           <CardDescription>Welcome to UUID-GEN. Your Ultimate Generator for UUID</CardDescription>
