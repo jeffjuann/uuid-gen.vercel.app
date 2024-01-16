@@ -18,7 +18,7 @@ export default async function Home()
           <CardDescription>Sorry, this page is unavailable</CardDescription>
         </CardHeader>
         <CardContent>
-          <Link className={cn(buttonVariants({ variant: 'default' }), 'w-full p-4 text-sm')} href={'/'}>Back to Home</Link>
+          <Link className={cn(buttonVariants({ variant: 'outline' }), 'w-full p-4 text-sm')} href={'/'}>Back to Home</Link>
         </CardContent>
       </Card>
     </main>
