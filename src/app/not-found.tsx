@@ -11,7 +11,7 @@ export default async function Home()
   const res = await Axios.get(`${process.env.NEXT_PUBLIC_URL}/api/uuid`).then(res => res.data);
   
   return (
-    <main className="h-full grid place-items-center m-8">
+    <main className="h-full grid place-items-center p-8">
       <Card className='max-w-[430px]'>
         <CardHeader>
           <CardTitle>Page Unavailable</CardTitle>
