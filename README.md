@@ -15,7 +15,7 @@ Welcome to the uuid-gen! your ultimate UUD Generator.
 ```
 https://uuid-gen.vercel.app/api/uuid
 ```
-To bulk generate, add count parameter.
+To bulk generate, add count parameter (number).
 ### Example
 ```
 https://uuid-gen.vercel.app/api/uuid?count=5
